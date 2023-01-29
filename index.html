@@ -71,11 +71,12 @@
             </ul>
             </div>
         </section>
-        <section>
-            <h2 class="section-title">О нас</h2>
-            <p class="section-sub-title">Компания <span class="section-sub-title-blue">ИвановПром</span></p>
-            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
-            <ul>
+        <section class="about">
+            <div class="container">
+                <h2 class="section-title">О нас</h2>
+                <p class="section-sub-title about-sub-title">Компания <span class="section-sub-title-blue">ИвановПром</span></p>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
+                <ul>
                 <li class="about-item">
                     <p class="about-item-num">90</p>
                     <h3 class="about-item-header">Завершено крупных сделок</h3>
@@ -97,10 +98,12 @@
                     <a class="about-item-link" href="#">Все кейсы</a>
                 </li>
             </ul>
+            </div>
         </section>
         <section class="client">
+            <div class="container">
             <h2 class="section-title">Наши клиенты</h2>
-            <p class="section-sub-title">С нами работают</p>
+            <p class="section-sub-title client-sub-title">С нами работают</p>
             <ul>
                 <li><img src="../img/Microsoft.png" alt="client"></li>
                 <li><img src="../img/Microsoft.png" alt="client"></li>
@@ -110,6 +113,7 @@
                 <li><img src="../img/Microsoft.png" alt="client"></li>
                 <li><img src="../img/Microsoft.png" alt="client"></li>
             </ul>
+            </div>
         </section>
         <section class="review container">
             <h2 class="section-title">Отзывы</h2>
@@ -153,53 +157,66 @@
             <button type="button" class="review-slider-arrow review-slider-button-active"><img src="../img/arrow-right.svg" alt="arrow-right"></button>
         </section>
         <section class="advantage">
-            <h2 class="section-title">Наши преимущетсва</h2>
-            <p class="section-sub-title">Мы предлагаем</p>
-            <ul>
-                <li>
-                    <img src="../img/quality-svgrepo-com 1.svg" alt="quality">
-                    <p class="advantage-desc">Качество</p>
-                </li>
-                <li>
-                    <img src="../img/speed-svgrepo-com 1.svg" alt="speed">
-                    <p class="advantage-desc">Оперативность</p>
-                </li>
-                <li>
-                    <img src="../img/tyre-expert-svgrepo-com 1.svg" alt="expert">
-                    <p class="advantage-desc ">Экспертность</p>
-                </li>
-            </ul>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="footer-bkg">
-        <div>
-            <h2 class="section-sub-title white">Связь с нами</h2>
-            <p>У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
-            <ul>
-                <li>
-                    <a class="footer-link" href="tel:71112223344">
-                        <img src="../img/phone.svg">
-                        <span class="footer-contact-text">+7 (111) 222-33-44</span>
-                    </a>
-                </li>
-                <li>
-                <a class="footer-link" href mailto:order@bu-one.ru">
-                    <img src="../img/envelope.svg">
-                    <span class="footer-contact-text">order@bu-one.ru</span>
-                </a>
+            <div class="container">
+                <h2 class="section-title">Наши преимущетсва</h2>
+                <p class="section-sub-title advantages-sub-title">Мы предлагаем</p>
+                <ul>
+                    <li>
+                        <img src="../img/quality-svgrepo-com 1.svg" alt="quality">
+                        <p class="advantage-desc">Качество</p>
+                    </li>
+                    <li>
+                        <img src="../img/speed-svgrepo-com 1.svg" alt="speed">
+                        <p class="advantage-desc">Оперативность</p>
+                    </li>
+                    <li>
+                        <img src="../img/tyre-expert-svgrepo-com 1.svg" alt="expert">
+                        <p class="advantage-desc ">Экспертность</p>
                     </li>
             </ul>
         </div>
-        <div>форма
-            <button class="button">Отправить сообщение</button>
-        </div>
-        </div>
-        <div>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <!--самостоятельно-->
+        <div class="footer-bkg">
+            <div class="container">
+                <div class="footer-wrp">
+                    <div>
+                        <h2 class="footer-subtitle section-sub-title white">Связь с нами</h2>
+                        <p class="footer-question">У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
+                        <ul>
+                            <li>
+                                <a class="footer-link" href="tel:81112223344">
+                                    <img src="../img/phone.svg" alt="phone">
+                                    <span class="footer-contact-text">+7 (111) 222-33-44</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="mailto:order@buhone.ru">
+                                    <img src="../img/envelope.svg" alt="envelope">
+                                    <span class="footer-contact-text">order@bu-one.ru</span>
+                                </a>
+                            </li>
+                        </ul>
+                        </div>
+                    <div>
+                        форма
+                        <button class="button">Отправить сообщение</button>
+                    
+                    </div>
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="container footer-about">
             <p class="footer-text">2019 (с) Все права защищены. БухОне.ру</p>
             <p class="footer-text">Разработано: BuhOne</p>
         </div>
     </footer>
-    <div>popap</div>
-</body>
+    <div>попап</div>
+    </body>
+
 </html>
